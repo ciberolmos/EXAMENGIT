@@ -48,10 +48,10 @@ class envioEmail {
         $mail->Username = 'andres.alcaraz@politecnicomalaga.com';
 
         //Contraseña de gmail para la SMTP authentication
-        $mail->Password = 'NoLaVoyAPoner...Todavía';
+        $mail->Password = 'estanolasabenadie0123';
 
         //Asignar el 'desde'
-        $mail->setFrom('andres.alcaraz@politecnicomalaga.com', 'Tienda Web 3.0');
+        $mail->setFrom('examen@gmail.com, 'Tienda Web 3.0');
 
         // reply-to address
         $mail->addReplyTo('andres.alcaraz@politecnicomalaga.com', 'Tienda Web 3.0');
